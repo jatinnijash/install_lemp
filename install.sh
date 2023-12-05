@@ -77,13 +77,6 @@ echo "configure Nginx..."
 # Download the default.conf file from GitHub
 wget -O default.conf https://raw.githubusercontent.com/jatinnijash/install_lemp/main/default.conf
 
-# Prompt the user for their server IP address
-echo "Enter your server IP address:"
-read server_ip
-
-# Replace the placeholder text with the user's input
-sed -i "s/your_server_ip/$server_ip/g" default.conf
-
 # Check if the file exists in the current directory
 if [ ! -f default.conf ]; then
   echo "File 'default.conf' not found in the current directory."
