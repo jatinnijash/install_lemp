@@ -1,5 +1,8 @@
 #!/bin/bash
-
+#extra tools
+sudo yum install net-tools && wget && nano && vim -y
+sleep 5
+clear
 # Install Nginx
 echo "Installing Nginx..."
 sudo yum install epel-release -y
