@@ -1,6 +1,6 @@
 #!/bin/bash
 #extra tools
-sudo yum install net-tools && wget && nano && vim -y
+sudo yum install net-tools nano vim wget -y
 sleep 5
 clear
 # Install Nginx
