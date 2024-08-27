@@ -28,7 +28,7 @@ sql {
 	#    * rlm_sql_sqlite
 	#    * rlm_sql_null (log queries to disk)
 	#
-	driver = "rlm_sql_mysql"
+#	driver = "rlm_sql_mysql"
 
 #
 #	Several drivers accept specific options, to set them, a
@@ -84,17 +84,17 @@ sql {
 	#
 	# If you're using rlm_sql_null, then it should be the type of
 	# database the logged queries are going to be executed against.
-	dialect = "mysql"
+#	dialect = "mysql"
 
 	# Connection info:
 	#
-	server = "localhost"
-	port = 3306
-	login = "radius"
-	password = "radpass"
+#	server = "localhost"
+#	port = 3306
+#	login = "radius"
+#	password = "radpass"
 
 	# Database table configuration for everything except Oracle
-	radius_db = "radius"
+#	radius_db = "radius"
 
 	# If you are using Oracle then use this instead
 #	radius_db = "(DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=localhost)(PORT=1521))(CONNECT_DATA=(SID=your_sid)))"
