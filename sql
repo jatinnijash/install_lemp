@@ -84,7 +84,7 @@ sql {
 	#
 	# If you're using rlm_sql_null, then it should be the type of
 	# database the logged queries are going to be executed against.
-#	dialect = "mysql"
+	dialect = "mysql"
 
 	# Connection info:
 	#
